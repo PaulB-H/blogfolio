@@ -1,0 +1,38 @@
+.heroContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin: auto;
+}
+
+.heroImg {
+  width: 100%;
+  max-width: 250px;
+
+  border-radius: 60px 10px 60px 10px;
+  margin-right: 40px;
+
+  box-shadow: 25px 15px 0px 5px rgb(0, 119, 255);
+}
+
+.heroText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding: 10px;
+
+  font-size: 150%;
+}
+
+@media (max-width: 590px) {
+  .heroContainer {
+    flex-direction: column;
+  }
+  .heroImg {
+    margin-bottom: 40px;
+    margin-right: 0;
+  }
+}

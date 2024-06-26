@@ -1,0 +1,11 @@
+.min100vh {
+  min-height: 100vh;
+}
+
+.dflex {
+  display: flex;
+}
+
+.strike {
+  text-decoration: line-through;
+}

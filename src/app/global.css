@@ -1,0 +1,26 @@
+:root {
+  --gaming-pattern: url("/patterns/toptotal-gaming-pattern.webp");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  /* background-image: var(--gaming-pattern); */
+  /* If we don't specify background-image, we can fallback to a color */
+  background: var(--gaming-pattern, #ededed);
+  background-repeat: repeat;
+  background-attachment: fixed;
+
+  font-family: var(--font-inter, sans-serif);
+
+  font-family: var(--);
+}
+
+body {
+  min-height: 100%;
+}

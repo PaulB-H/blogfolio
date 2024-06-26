@@ -1,0 +1,54 @@
+.portfolioContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+  margin: auto;
+
+  max-width: 980px;
+}
+
+.portfolioCard {
+  display: flex;
+  flex-direction: column;
+
+  margin: 20px;
+
+  max-width: 250px;
+}
+
+.cardImg {
+  width: 250px;
+  height: 250px;
+  border-radius: 5px;
+}
+
+.cardTextDiv {
+  padding: 10px;
+}
+.cardHeader {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.cardText {
+  margin: 5px;
+}
+
+.viewDetailsLink {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  display: none;
+}
+
+.cardLinkDiv {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.cardLinkDiv a {
+  font-size: 115%;
+}
