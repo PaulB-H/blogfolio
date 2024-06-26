@@ -17,8 +17,6 @@ html {
   background-attachment: fixed;
 
   font-family: var(--font-inter, sans-serif);
-
-  font-family: var(--);
 }
 
 body {
